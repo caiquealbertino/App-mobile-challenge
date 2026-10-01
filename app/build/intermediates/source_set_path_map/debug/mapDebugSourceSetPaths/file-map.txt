@@ -56,10 +56,10 @@ com.vegetacao.app-lifecycle-runtime-release-54 C:\Users\labsfiap\.gradle\caches\
 com.vegetacao.app-ui-util-release-55 C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\f706a1ca76a428f6f344ddc356cec917\transformed\ui-util-release\res
 com.vegetacao.app-lifecycle-viewmodel-compose-release-56 C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\f714e5621a1192e59c664f687c050f28\transformed\lifecycle-viewmodel-compose-release\res
 com.vegetacao.app-ui-unit-release-57 C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\f73793fb5b7c995e0133c871a455e0f9\transformed\ui-unit-release\res
-com.vegetacao.app-pngs-58 C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\build\generated\res\pngs\debug
-com.vegetacao.app-resValues-59 C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\build\generated\res\resValues\debug
-com.vegetacao.app-packageDebugResources-60 C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.vegetacao.app-packageDebugResources-61 C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.vegetacao.app-debug-62 C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\build\intermediates\merged_res\debug\mergeDebugResources
-com.vegetacao.app-debug-63 C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\debug\res
-com.vegetacao.app-main-64 C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\res
+com.vegetacao.app-pngs-58 C:\Users\labsfiap\Desktop\App-mobile-challenge\app\build\generated\res\pngs\debug
+com.vegetacao.app-resValues-59 C:\Users\labsfiap\Desktop\App-mobile-challenge\app\build\generated\res\resValues\debug
+com.vegetacao.app-packageDebugResources-60 C:\Users\labsfiap\Desktop\App-mobile-challenge\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.vegetacao.app-packageDebugResources-61 C:\Users\labsfiap\Desktop\App-mobile-challenge\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.vegetacao.app-debug-62 C:\Users\labsfiap\Desktop\App-mobile-challenge\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.vegetacao.app-debug-63 C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\debug\res
+com.vegetacao.app-main-64 C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\res

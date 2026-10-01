@@ -9,24 +9,24 @@
 9        android:targetSdkVersion="35" />
 10
 11    <uses-feature
-11-->C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:3:5-85
+11-->C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:3:5-85
 12        android:name="android.hardware.camera"
-12-->C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:3:19-57
+12-->C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:3:19-57
 13        android:required="false" />
-13-->C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:3:58-82
+13-->C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:3:58-82
 14
 15    <uses-permission android:name="android.permission.CAMERA" />
-15-->C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:4:5-65
-15-->C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:4:22-62
+15-->C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:4:5-65
+15-->C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:4:22-62
 16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-16-->C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:5:5-79
-16-->C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:5:22-76
+16-->C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:5:5-79
+16-->C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:5:22-76
 17    <uses-permission android:name="android.permission.INTERNET" />
-17-->C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:6:5-67
-17-->C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:6:22-64
+17-->C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:6:5-67
+17-->C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:6:22-64
 18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-18-->C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:7:5-79
-18-->C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:7:22-76
+18-->C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:7:5-79
+18-->C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:7:22-76
 19    <uses-permission android:name="android.permission.WAKE_LOCK" />
 19-->[androidx.work:work-runtime:2.10.0] C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\85072ce405c5d86c67edc4ab1b9f8759\transformed\work-runtime-2.10.0\AndroidManifest.xml:23:5-68
 19-->[androidx.work:work-runtime:2.10.0] C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\85072ce405c5d86c67edc4ab1b9f8759\transformed\work-runtime-2.10.0\AndroidManifest.xml:23:22-65
@@ -49,33 +49,33 @@
 27-->[androidx.core:core:1.15.0] C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\248e226a96312242bd61087a92251d11\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
 28
 29    <application
-29-->C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:8:5-20:19
+29-->C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:8:5-20:19
 30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 30-->[androidx.core:core:1.15.0] C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\248e226a96312242bd61087a92251d11\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
 31        android:debuggable="true"
 32        android:extractNativeLibs="false"
 33        android:label="Vegetacao"
-33-->C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:9:9-34
+33-->C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:9:9-34
 34        android:testOnly="true"
 35        android:theme="@android:style/Theme.Material.Light.NoActionBar" >
-35-->C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:10:9-72
+35-->C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:10:9-72
 36        <activity
-36-->C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:11:9-19:20
+36-->C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:11:9-19:20
 37            android:name="com.vegetacao.app.MainActivity"
-37-->C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:12:13-41
+37-->C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:12:13-41
 38            android:exported="true"
-38-->C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:13:13-36
+38-->C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:13:13-36
 39            android:screenOrientation="landscape" >
-39-->C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:14:13-50
+39-->C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:14:13-50
 40            <intent-filter>
-40-->C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:15:13-18:29
+40-->C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:15:13-18:29
 41                <action android:name="android.intent.action.MAIN" />
-41-->C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:16:17-69
-41-->C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:16:25-66
+41-->C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:16:17-69
+41-->C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:16:25-66
 42
 43                <category android:name="android.intent.category.LAUNCHER" />
-43-->C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:17:17-77
-43-->C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:17:27-74
+43-->C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:17:17-77
+43-->C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:17:27-74
 44            </intent-filter>
 45        </activity>
 46

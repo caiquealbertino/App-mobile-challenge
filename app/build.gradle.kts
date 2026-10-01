@@ -1,9 +1,17 @@
+import java.util.Properties
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("org.jetbrains.kotlin.plugin.compose")
     id("com.google.devtools.ksp")
 }
+
+val localProps = Properties().apply {
+    rootProject.file("local.properties").takeIf { it.exists() }?.inputStream()?.use { load(it) }
+}
+val apiUrl = localProps.getProperty("api.url") ?: "http://10.0.2.2:8000/api/capturas"
+val apiToken = localProps.getProperty("api.token") ?: ""
 
 android {
     namespace = "com.vegetacao.app"
@@ -14,7 +22,8 @@ android {
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
-        buildConfigField("String", "API_URL", "\"https://SEU_DASHBOARD/api/capturas\"")
+        buildConfigField("String", "API_URL", "\"$apiUrl\"")
+        buildConfigField("String", "API_TOKEN", "\"$apiToken\"")
     }
     buildFeatures {
         compose = true
@@ -46,5 +55,5 @@ dependencies {
     implementation("androidx.work:work-runtime-ktx:2.10.0")
     implementation("com.google.android.gms:play-services-location:21.3.0")
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
-    implementation("com.google.mediapipe:tasks-vision:latest.release")
+    implementation("com.google.mediapipe:tasks-vision:1.0.0")
 }

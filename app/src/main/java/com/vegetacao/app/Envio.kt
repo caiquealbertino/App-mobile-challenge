@@ -38,13 +38,18 @@ class EnvioWorker(ctx: Context, p: WorkerParameters) : CoroutineWorker(ctx, p) {
                     .addFormDataPart("timestamp", c.timestamp.toString())
                     .addFormDataPart("foto", arq.name, arq.asRequestBody("image/jpeg".toMediaType()))
                     .build()
-                val ok = withContext(Dispatchers.IO) {
+                val codigo = withContext(Dispatchers.IO) {
                     runCatching {
-                        http.newCall(Request.Builder().url(BuildConfig.API_URL).post(corpo).build()).execute().use { it.isSuccessful }
-                    }.getOrDefault(false)
+                        val req = Request.Builder()
+                            .url(BuildConfig.API_URL)
+                            .header("X-API-Key", BuildConfig.API_TOKEN)
+                            .post(corpo)
+                            .build()
+                        http.newCall(req).execute().use { it.code }
+                    }.getOrDefault(-1)
                 }
-                if (!ok) return Result.retry()
-                arq.delete()
+                if (codigo == -1 || codigo == 401 || codigo == 403 || codigo == 408 || codigo == 429 || codigo >= 500) return Result.retry()
+                if (codigo in 200..299) arq.delete()
                 dao.marcarEnviada(c.id)
             }
         }

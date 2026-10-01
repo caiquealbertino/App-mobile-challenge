@@ -4,6 +4,7 @@ import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.Matrix
 import android.location.Location
+import android.os.SystemClock
 import androidx.camera.core.ImageProxy
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -25,6 +26,8 @@ class Corrida(
     private val io = CoroutineScope(Dispatchers.IO)
     private var ultimoProcessado = 0L
     private val intervaloMs = 1_000L
+    private val IDADE_MAX_GPS_NS = 3_000_000_000L
+    private val PRECISAO_MAX_M = 30f
 
     fun analisar(img: ImageProxy) {
         val agora = System.currentTimeMillis()
@@ -37,7 +40,11 @@ class Corrida(
     }
 
     fun processar(bmp: Bitmap) {
-        val loc = local() ?: return
+        val loc = local()?.takeIf { gpsValido(it) }
+        if (loc == null) {
+            descartadas.update { it + 1 }
+            return
+        }
         if (filtro.obstruida(bmp)) {
             descartadas.update { it + 1 }
             return
@@ -48,6 +55,9 @@ class Corrida(
         io.launch { dao.inserir(Captura(corrida = id, caminho = arq.path, lat = loc.latitude, lng = loc.longitude, timestamp = ts)) }
         salvas.update { it + 1 }
     }
+
+    private fun gpsValido(l: Location) =
+        SystemClock.elapsedRealtimeNanos() - l.elapsedRealtimeNanos < IDADE_MAX_GPS_NS && l.hasAccuracy() && l.accuracy <= PRECISAO_MAX_M
 
     private fun Bitmap.girar(g: Int) =
         if (g == 0) this else Bitmap.createBitmap(this, 0, 0, width, height, Matrix().apply { postRotate(g.toFloat()) }, true)

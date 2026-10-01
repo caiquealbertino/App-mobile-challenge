@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:2:1-21:12
 MERGED from [androidx.camera:camera-video:1.4.1] C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\b3c1cf27e6f3c9013ba6fa4646775685\transformed\camera-video-1.4.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.camera:camera-view:1.4.1] C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\136d9ca83e6a079f5e41e3409e12dc15\transformed\camera-view-1.4.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.camera:camera-lifecycle:1.4.1] C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\c71a9453951ba99dd3a1f950b62627bf\transformed\camera-lifecycle-1.4.1\AndroidManifest.xml:2:1-7:12
@@ -84,35 +84,35 @@ MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\
 MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\5bbf57e98b2e0a593b143d70125ff577\transformed\transport-api-3.0.0\AndroidManifest.xml:15:1-22:12
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\b3f2b6a6d8ff056d3f49ef0dfc2950f1\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:15:1-23:12
 	package
-		INJECTED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:2:11-69
 uses-feature#android.hardware.camera
-ADDED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:3:5-85
+ADDED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:3:5-85
 	android:required
-		ADDED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:3:58-82
+		ADDED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:3:58-82
 	android:name
-		ADDED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:3:19-57
+		ADDED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:3:19-57
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:4:5-65
+ADDED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:4:5-65
 	android:name
-		ADDED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:4:22-62
+		ADDED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:4:22-62
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:5:5-79
+ADDED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:5:5-79
 	android:name
-		ADDED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:5:22-76
+		ADDED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:5:22-76
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:6:5-67
+ADDED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:6:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\f3a90e6a5b9d7c1eeccf52dd6b98bfc0\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:26:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\f3a90e6a5b9d7c1eeccf52dd6b98bfc0\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:26:5-67
 	android:name
-		ADDED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:7:5-79
+ADDED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:7:5-79
 MERGED from [androidx.work:work-runtime:2.10.0] C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\85072ce405c5d86c67edc4ab1b9f8759\transformed\work-runtime-2.10.0\AndroidManifest.xml:24:5-79
 MERGED from [androidx.work:work-runtime:2.10.0] C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\85072ce405c5d86c67edc4ab1b9f8759\transformed\work-runtime-2.10.0\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\f3a90e6a5b9d7c1eeccf52dd6b98bfc0\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:25:5-79
@@ -120,10 +120,10 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Us
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\0d9d2dcb0344cdb218786b1df3cdc087\transformed\transport-runtime-3.1.0\AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\0d9d2dcb0344cdb218786b1df3cdc087\transformed\transport-runtime-3.1.0\AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:7:22-76
+		ADDED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:7:22-76
 application
-ADDED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:8:5-20:19
-INJECTED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:8:5-20:19
+ADDED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:8:5-20:19
+INJECTED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:8:5-20:19
 MERGED from [androidx.camera:camera-camera2:1.4.1] C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\44f279cc5ff80facdb4abbab1b158fb2\transformed\camera-camera2-1.4.1\AndroidManifest.xml:23:5-34:19
 MERGED from [androidx.camera:camera-camera2:1.4.1] C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\44f279cc5ff80facdb4abbab1b158fb2\transformed\camera-camera2-1.4.1\AndroidManifest.xml:23:5-34:19
 MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\d38566884581df702ed6a96b8463ccb9\transformed\camera-core-1.4.1\AndroidManifest.xml:23:5-34:19
@@ -157,35 +157,35 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Us
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\0d9d2dcb0344cdb218786b1df3cdc087\transformed\transport-runtime-3.1.0\AndroidManifest.xml:25:5-39:19
 MERGED from [com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\0d9d2dcb0344cdb218786b1df3cdc087\transformed\transport-runtime-3.1.0\AndroidManifest.xml:25:5-39:19
 	android:extractNativeLibs
-		INJECTED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.15.0] C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\248e226a96312242bd61087a92251d11\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
 	android:label
-		ADDED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:9:9-34
+		ADDED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:9:9-34
 	android:theme
-		ADDED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:10:9-72
+		ADDED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:10:9-72
 activity#com.vegetacao.app.MainActivity
-ADDED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:11:9-19:20
+ADDED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:11:9-19:20
 	android:screenOrientation
-		ADDED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:14:13-50
+		ADDED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:14:13-50
 	android:exported
-		ADDED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:13:13-36
+		ADDED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:13:13-36
 	android:name
-		ADDED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:12:13-41
+		ADDED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:12:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:15:13-18:29
+ADDED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:15:13-18:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:17:17-77
+ADDED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml:17:27-74
+		ADDED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml:17:27-74
 uses-sdk
-INJECTED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml
 MERGED from [androidx.camera:camera-video:1.4.1] C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\b3c1cf27e6f3c9013ba6fa4646775685\transformed\camera-video-1.4.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.camera:camera-video:1.4.1] C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\b3c1cf27e6f3c9013ba6fa4646775685\transformed\camera-video-1.4.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.camera:camera-view:1.4.1] C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\136d9ca83e6a079f5e41e3409e12dc15\transformed\camera-view-1.4.1\AndroidManifest.xml:5:5-44
@@ -345,9 +345,9 @@ MERGED from [com.google.android.datatransport:transport-api:3.0.0] C:\Users\labs
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\b3f2b6a6d8ff056d3f49ef0dfc2950f1\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\b3f2b6a6d8ff056d3f49ef0dfc2950f1\transformed\firebase-encoders-json-18.0.0\AndroidManifest.xml:19:5-21:41
 	android:targetSdkVersion
-		INJECTED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\labsfiap\Downloads\Vegetacao (1)\Vegetacao\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\labsfiap\Desktop\App-mobile-challenge\app\src\main\AndroidManifest.xml
 service#androidx.camera.core.impl.MetadataHolderService
 ADDED from [androidx.camera:camera-camera2:1.4.1] C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\44f279cc5ff80facdb4abbab1b158fb2\transformed\camera-camera2-1.4.1\AndroidManifest.xml:24:9-33:19
 MERGED from [androidx.camera:camera-core:1.4.1] C:\Users\labsfiap\.gradle\caches\8.10.2\transforms\d38566884581df702ed6a96b8463ccb9\transformed\camera-core-1.4.1\AndroidManifest.xml:29:9-33:78

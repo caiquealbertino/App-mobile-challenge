@@ -38,7 +38,7 @@ Android nativo, em Kotlin.
 
 1. Abra a pasta raiz do projeto no Android Studio.
 2. Baixe o modelo [`efficientdet_lite0.tflite`](https://storage.googleapis.com/mediapipe-models/object_detector/efficientdet_lite0/float32/latest/efficientdet_lite0.tflite) e coloque em `app/src/main/assets/`.
-3. Em `app/build.gradle.kts`, ajuste `API_URL` para o endereço real do dashboard.
+3. No `local.properties` (não versionado), defina `api.url=http://IP_DO_PC:8000/api/capturas` e, se o servidor usar chave, `api.token=SUA_CHAVE`. Sem `api.url`, o padrão é `http://10.0.2.2:8000/api/capturas` (emulador).
 4. Conecte um celular Android via USB com depuração USB ativada (recomendado — a câmera e o GPS reais não são simulados corretamente em emulador).
 5. Rode pelo botão de play do Android Studio.
 

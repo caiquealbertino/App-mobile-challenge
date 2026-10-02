@@ -2,6 +2,7 @@ package com.vegetacao.app
 
 import android.content.Context
 import android.graphics.Bitmap
+import android.graphics.Color
 import com.google.mediapipe.framework.image.BitmapImageBuilder
 import com.google.mediapipe.tasks.core.BaseOptions
 import com.google.mediapipe.tasks.vision.core.RunningMode
@@ -20,7 +21,30 @@ class Filtro(ctx: Context) {
     )
     private val bloqueios = setOf("car", "truck", "bus", "motorcycle", "stop sign", "traffic light")
 
-    fun obstruida(bmp: Bitmap) = escuro(bmp) || coberto(bmp)
+    fun obstruida(bmp: Bitmap) = escuro(bmp) || !temGrama(bmp) || coberto(bmp)
+
+    private fun temGrama(bmp: Bitmap): Boolean {
+        val hsv = FloatArray(3)
+        var pixelsVerdes = 0
+        val totalAmostras = LARGURA_AMOSTRA * ALTURA_AMOSTRA
+
+        for (y in 0 until ALTURA_AMOSTRA) {
+            val py = y * bmp.height / ALTURA_AMOSTRA
+            for (x in 0 until LARGURA_AMOSTRA) {
+                val px = x * bmp.width / LARGURA_AMOSTRA
+                val cor = bmp.getPixel(px, py)
+                Color.colorToHSV(cor, hsv)
+                val hueOpenCv = hsv[0] / 2f
+                if (hueOpenCv in MATIZ_MIN..MATIZ_MAX &&
+                    hsv[1] >= SATURACAO_MIN && hsv[2] >= VALOR_MIN
+                ) {
+                    pixelsVerdes++
+                }
+            }
+        }
+
+        return pixelsVerdes.toFloat() / totalAmostras >= FRACAO_MINIMA_GRAMA
+    }
 
     private fun escuro(bmp: Bitmap): Boolean {
         val p = Bitmap.createScaledBitmap(bmp, 32, 18, true)
@@ -45,5 +69,12 @@ class Filtro(ctx: Context) {
     companion object {
         const val LIMIAR_ESCURO = 45
         const val LIMIAR_AREA = 0.04f
+        private const val LARGURA_AMOSTRA = 64
+        private const val ALTURA_AMOSTRA = 36
+        private const val MATIZ_MIN = 30f
+        private const val MATIZ_MAX = 95f
+        private const val SATURACAO_MIN = 30f / 255f
+        private const val VALOR_MIN = 45f / 255f
+        private const val FRACAO_MINIMA_GRAMA = 0.02f
     }
 }
